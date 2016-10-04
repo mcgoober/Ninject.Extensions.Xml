@@ -63,7 +63,7 @@
       <HintPath>..\..\tools\FluentAssertions\Net-3.5\FluentAssertions.dll</HintPath>
     </Reference>
     <Reference Include="Moq">
-      <HintPath>..\..\..\ninject.mockingkernel\tools\moq\NET35\Moq.dll</HintPath>
+      <HintPath>..\..\tools\moq\NET35\Moq.dll</HintPath>
     </Reference>
     <Reference Include="Ninject, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -93,6 +93,7 @@
     <Compile Include="Processors\BindingBuilderFactoryTest.cs" />
     <Compile Include="Processors\BindXmlElementProcessorTest.cs" />
     <Compile Include="Processors\ChildElementProcessorTest.cs" />
+    <Compile Include="Processors\ConstructorArgumentXmlElementProcessorTests.cs" />
     <Compile Include="Processors\MetadataXmlElementProcessorTest.cs" />
     <Compile Include="Processors\NameXmlAttributeProcessorTest.cs" />
     <Compile Include="Processors\ProcessorTestsBase.cs" />
